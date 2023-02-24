@@ -1,3 +1,19 @@
 {
-    "python.defaultInterpreterPath": "/home/python/app/.venv/bin/python"
+    "python.defaultInterpreterPath": "/home/python/app/.venv/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "django",
+            "depth": 10,
+            "includeAllSymbols": true,
+        },
+        {
+            "name": "rest_framework",
+            "depth": 10,
+            "includeAllSymbols": true,
+        }
+    ]
 }
